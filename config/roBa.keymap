@@ -83,7 +83,7 @@
 &kp Q    &kp W             &kp E         &kp R  &kp T                                     &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A    &kp S             &kp D         &kp F  &kp G  &kp LS(LG(S))       &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp SQT
 &kp Z    &kp X             &kp C         &kp V  &kp B  &kp LEFT_SHIFT      &kp SPACE      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp TAB  &kp LEFT_CONTROL  &kp LEFT_ALT  &sl 3  &sl 2  &kp LEFT_GUI        &kp BACKSPACE  &lt 1 ENTER                             &kp CAPS
+&kp TAB  &kp LEFT_CONTROL  &kp LEFT_ALT  &to 3  &sl 2  &kp LEFT_GUI        &kp BACKSPACE  &lt 1 ENTER                             &kp CAPS
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans      &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans      &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans      &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp ESCAPE  &trans  &trans  &trans  &studio_unlock                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans      &trans  &trans  &trans  &trans          &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans      &trans  &trans  &trans  &trans          &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans      &trans  &trans  &trans  &trans          &trans      &trans   &trans                          &kp F12
             >;
         };
 
