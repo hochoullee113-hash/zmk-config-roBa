@@ -86,7 +86,7 @@
 &kp TAB  &kp LEFT_CONTROL  &kp LEFT_ALT  &to 3  &to 2  &lt_to_layer_0 LEFT_GUI 0      &kp BACKSPACE  &lt 1 ENTER                             &kp CAPS
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
         NUM {
