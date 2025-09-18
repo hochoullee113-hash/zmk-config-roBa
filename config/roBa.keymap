@@ -80,30 +80,21 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W             &kp E         &kp R  &kp T                                                &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A    &kp S             &kp D         &kp F  &kp G  &kp LS(LG(S))                  &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp Z    &kp X             &kp C         &kp V  &kp B  &kp LEFT_SHIFT                 &kp SPACE      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp TAB  &kp LEFT_CONTROL  &kp LEFT_ALT  &to 3  &to 2  &lt_to_layer_0 LEFT_GUI 0      &kp BACKSPACE  &lt 1 ENTER                             &kp CAPS
+&kp ESCAPE  &kp W             &kp E         &kp R           &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp SINGLE_QUOTE
+&kp Q       &kp S             &kp D         &kp F           &kp G       &kp LS(LG(S))      &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &kp P
+&kp A       &kp X             &kp C         &kp V           &kp B       &kp TAB            &kp SPACE      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 CAPS  &kp LEFT_GUI       &kp BACKSPACE  &lt 1 ENTER                             &kp CAPS
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
-        NUM {
+        arrow {
             bindings = <
-&kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                &kp ESCAPE        &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &kp MINUS  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &kp PIPE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans           &trans           &trans           &trans           &trans        &trans         &trans     &trans                                                                     &kp UNDER
-            >;
-        };
-
-        ARROW {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans          &mkp MCLK       &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &trans
+&kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                &kp ESCAPE       &kp AMPERSAND   &mkp MCLK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &kp MINUS  &kp EXCLAMATION  &mkp LCLK       &kp UP_ARROW    &mkp RCLK             &kp PERCENT
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &kp PIPE   &kp QMARK        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp BACKSLASH
+&trans           &trans           &trans           &trans           &trans        &trans         &trans     &trans                                                                 &kp UNDER
             >;
         };
 
