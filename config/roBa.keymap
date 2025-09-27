@@ -10,9 +10,8 @@
 };
 
 &lt {
-    flavor = "tap-unless-interrupted";
+    flavor = "hold-preferred";
     retro-tap;
-    hold-while-undecided;
 };
 
 &trackball {
