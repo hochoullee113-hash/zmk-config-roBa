@@ -9,7 +9,10 @@
     quick-tap-ms = <0>;
 };
 
-&lt { flavor = "tap-unless-interrupted"; };
+&lt {
+    flavor = "tap-unless-interrupted";
+    retro-tap;
+};
 
 &trackball {
     automouse-layer = <4>;
