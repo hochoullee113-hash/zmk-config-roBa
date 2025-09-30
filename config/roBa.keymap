@@ -96,10 +96,10 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W             &kp E         &kp R           &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp SINGLE_QUOTE
-&kp A       &kp S             &kp D         &kp F           &kp G       &kp LS(LG(S))      &kp SEMICOLON    &kp H        &kp J  &kp K      &kp L    &kp P
-&kp Z       &kp X             &kp C         &kp V           &kp B       &kp TAB            &kp SPACE        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 CAPS  &kp LEFT_GUI       &lt 3 BACKSPACE  &lt 1 ENTER                             &kp RIGHT_COMMAND
+&kp Q       &kp W             &kp E         &kp R           &kp T                                                           &kp Y        &kp U  &kp I      &kp O    &kp SINGLE_QUOTE
+&kp A       &kp S             &kp D         &kp F           &kp G             &kp LS(LG(S))                &kp SEMICOLON    &kp H        &kp J  &kp K      &kp L    &kp P
+&kp Z       &kp X             &kp C         &kp V           &kp B             &kp TAB                      &kp SPACE        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp ESCAPE  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 LANGUAGE_2  &mt LEFT_GUI LANGUAGE_1      &lt 3 BACKSPACE  &lt 1 ENTER                             &kp RIGHT_COMMAND
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -125,10 +125,10 @@
 
         adobe {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp LEFT_BRACKET
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RIGHT_BRACKET
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans     &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp LG(LEFT_BRACKET)
+&kp LG(A)  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp LG(RIGHT_BRACKET)
+&kp LG(Z)  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
