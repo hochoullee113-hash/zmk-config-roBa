@@ -125,10 +125,10 @@
 
         adobe {
             bindings = <
-&trans         &trans  &trans  &trans  &trans                             &trans  &trans  &trans          &kp LG(LS(LEFT_BRACKET))   &kp LG(LEFT_BRACKET)
-&trans         &trans  &trans  &trans  &kp LG(LS(G))  &trans      &trans  &trans  &trans  &msc SCRL_UP    &kp LG(LS(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)
-&kp LG(LS(Z))  &trans  &trans  &trans  &trans         &trans      &trans  &trans  &trans  &msc SCRL_DOWN  &trans                     &trans
-&trans         &trans  &trans  &trans  &trans         &trans      &trans  &trans                                                     &trans
+&trans         &trans  &trans  &trans  &trans                                              &trans  &trans  &trans          &kp LG(LS(LEFT_BRACKET))   &kp LG(LEFT_BRACKET)
+&trans         &trans  &trans  &trans  &kp LG(LS(G))  &trans      &kp LG(LS(KP_NUMBER_4))  &trans  &trans  &msc SCRL_UP    &kp LG(LS(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)
+&kp LG(LS(Z))  &trans  &trans  &trans  &trans         &trans      &trans                   &trans  &trans  &msc SCRL_DOWN  &trans                     &trans
+&trans         &trans  &trans  &trans  &trans         &trans      &trans                   &trans                                                     &trans
             >;
         };
     };
