@@ -101,10 +101,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &kp K_VOLUME_UP    &kp C_BRI_UP  &kp K_CONTEXT_MENU     &kp C_AC_SEARCH                         &kp F1   &kp F2   &kp F3   &kp F4      &kp F5
-&trans  &kp K_VOLUME_DOWN  &kp C_BRI_DN  &kp C_AL_TASK_MANAGER  &trans           &trans      &kp MINUS  &kp F6   &kp F7   &kp F8   &kp F9      &kp F10
-&trans  &kp K_MUTE         &kp LG(L)     &kp SPACE              &trans           &trans      &kp PIPE   &kp F11  &kp F12  &kp F13  &kp ESCAPE  &studio_unlock
-&trans  &trans             &trans        &trans                 &trans           &trans      &trans     &trans                                 &trans
+&trans  &kp F6  &kp F8  &kp F9  &kp F10                        &kp HASH           &kp DOLLAR     &kp INT_YEN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans      &kp PIPE  &kp DOUBLE_QUOTES  &kp AMPERSAND  &kp CARET    &kp LESS_THAN     &kp GREATER_THAN
+&trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &trans    &trans             &trans         &trans       &trans            &trans
+&trans  &trans  &trans  &trans  &trans   &trans      &trans    &trans                                                           &trans
             >;
         };
 
